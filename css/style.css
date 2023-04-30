@@ -1,0 +1,662 @@
+html, body {
+    font-family: Commissioner, sans-serif;
+    color: #000000;
+    letter-spacing: -0.015em;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.burger {
+    display: none;
+}
+
+.container {
+    max-width: 1512px;
+    padding: 0 0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* ====================================HEADER========================================= */
+
+.header__logo-special {
+    display: none;
+}
+
+.header__inner {
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo span {
+    display: block;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    margin: 29px 539px 28px 0px;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px 0px 33px;
+}
+
+.header__nav-item {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    transition: all 1.3s;
+    white-space: nowrap;
+}
+
+.header__nav-item:hover {
+    color: #18A0FB;
+    transition: all 0.3s;
+}
+
+.header__nav-item:last-child {
+    margin-right: 67px;
+}
+
+.header__button {
+    background: #18A0FB;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+    margin: 24px 0px;
+    transition: all 1.3s;
+    white-space: nowrap;
+    max-width: 128px;
+}
+
+.header__button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.header__btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+
+/* ====================================MAIN========================================= */
+/* ====================================DEGREE========================================= */
+
+.degree__inner {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.degree__heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 60px;
+}
+
+.degree__blocks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.degree__block {
+    margin-right: 18px;
+}
+
+.degree__block:last-child {
+    margin-right: 0;
+}
+
+.degree__photo {
+    margin-bottom: 38px;
+}
+
+.degree__photo img {
+    width: 100%;
+}
+
+.degree__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.degree__title {
+    margin-bottom: 42px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+.degree__button {
+    background: #18A0FB;
+    border-radius: 6px;
+    padding: 15.3px 56.78px 15.7px 55.22px;
+    margin-bottom: 109px;
+    max-width: 192px;
+}
+
+.degree__button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.degree__btn {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/* ====================================FOOTER========================================= */
+
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__text {
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__col:first-child {
+    margin-right: 50px;
+}
+
+.footer__col:nth-child(2) {
+    margin-right: 51px;
+}
+
+.footer__col:nth-child(3) {
+    margin-right: 47px;
+}
+
+.footer__col:nth-child(4) {
+    margin-right: 297px;
+}
+
+.footer__col:last-child {
+    justify-content: flex-start;
+}
+
+.footer__heading {
+    display: block;
+    margin-bottom: 76px;
+    transition: all 1.3s;
+    white-space: nowrap;
+}
+
+/* при наведении на ссылки цвет ссылок меняется */
+.footer__heading:hover {
+    color: #18A0FB;
+    transition: all 0.3s;
+}
+
+.footer__heading:last-child {
+    margin-bottom: 0;
+}
+
+/* последняя колонка другая (с кнопкой и ссылкой), поэтому к ней применила доп свойства */
+.footer__col--special {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__button {
+    background: #18A0FB;
+    border-radius: 6px;
+    padding: 15.3px 51.78px 15.7px 51.22px;
+    margin: 24px 0px;
+    transition: all 1.3s;
+    white-space: nowrap;
+    transform: translateY(-90%);
+    max-width: 192px;
+}
+
+.footer__button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.footer__btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.footer__icons {
+    display: flex;
+    margin-bottom: 70px;
+    transform: translateY(-50%);
+}
+
+.footer__icons-item {
+    margin-right: 31px;
+}
+
+/* иконки соц сетей увеличиваются при наведении */
+.footer__icons-item:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.footer__icons-item:last-child {
+    margin-right: 0;
+}
+
+/* ====================================MEDIA========================================= */
+/* ====================================1500========================================= */
+
+@media (max-width: 1500px) {
+    .header__logo span {
+        margin-right: 443px;
+        white-space: nowrap;
+    }
+
+}
+
+/* ====================================1400========================================= */
+
+@media (max-width: 1400px) {
+    .header__logo span {
+        margin-right: 380px;
+    }
+}
+
+/* ====================================1300========================================= */
+
+@media (max-width: 1300px) {
+
+    .header__logo span {
+        margin-right: 300px;
+    }
+
+    .header__inner, .degree__inner, .footer__text {
+        padding: 0px 60px;
+    }
+
+    .footer__col:nth-child(4) {
+        margin-right: 100px;
+    }
+
+}
+
+/* ====================================1250========================================= */
+
+@media (max-width: 1250px) {
+    .header__logo span {
+        margin-right: 260px;
+    }
+
+}
+
+/* ====================================1150========================================= */
+
+@media (max-width: 1150px) {
+    .header__logo span {
+        margin-right: 170px;
+    }
+
+    .header__inner, .degree__inner, .footer__text {
+        padding: 0px 30px;
+    }
+
+    .footer__col:first-child, .footer__col:nth-child(2), .footer__col:nth-child(3), .footer__col:nth-child(4) {
+        margin-right: 15px;
+    }
+}
+
+/* ====================================1050========================================= */
+
+@media (max-width: 1050px) {
+    .header__logo span {
+        margin-right: 130px;
+    }
+}
+
+/* ====================================1000========================================= */
+
+@media (max-width: 1000px) {
+    .degree__inner {
+        align-items: normal;
+        margin-top: 40px;
+    }
+    .degree__heading {
+        justify-self: center;
+        align-self: center;
+        font-size: 22px;
+        margin-bottom: 52px;
+    }
+    .degree__blocks {
+        flex-direction: column;
+        justify-self: flex-start;
+    }
+    .degree__block {
+        margin-right: 0;
+    }
+    .degree__photo {
+        margin-bottom: 26px;
+    }
+
+    .degree__title {
+        font-size: 21px;
+        margin-bottom: 11px;
+    }
+
+    .degree__button {
+        padding: 10.12px 23.62px 9.68px 22.38px;
+        margin-bottom: 57.2px;
+        max-width: 120px;
+        text-align: center;
+    }
+
+    .degree__btn {
+        font-size: 14px;
+        line-height: 17.12px;
+    }
+    .footer__button {
+        padding: 10.12px 23.62px 9.68px 22.38px;
+        max-width: 120px;
+    }
+}
+
+/* ====================================950========================================= */
+
+@media (max-width: 950px) {
+
+    .header__logo span {
+        margin-right: 121px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__nav-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 26px;
+    }
+
+    .header__nav-item:last-child {
+        margin-right: 26px;
+    }
+
+    .header__button {
+        padding: 8.5px 16.45px 10.05px 15.55px;
+        margin: 17px 0px 17.45px;
+        transition: all 1.3s;
+        white-space: nowrap;
+        align-self: center;
+    }
+
+    .header__btn {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .footer__button {
+        padding: 10.12px 19.62px 9.68px 19.38px;
+        max-width: 128px;
+        text-align: center;
+    }
+
+    .footer__heading, .footer__btn {
+        font-size: 14px;
+    }
+
+    .footer__icons-item {
+        margin-right: 10px;
+    }
+
+    .footer__icons-link svg {
+        width: 35px;
+    }
+}
+
+/* ====================================850========================================= */
+
+@media (max-width: 850px) {}
+
+/* ====================================768========================================= */
+
+@media (max-width: 768px) {
+
+    .header__logo span {
+        margin-right: 121px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__nav-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 26px;
+    }
+
+    .header__nav-item:last-child {
+        margin-right: 26px;
+    }
+
+    .header__button {
+        padding: 8.5px 16.45px 10.05px 15.55px;
+        margin: 17px 0px 17.45px;
+        transition: all 1.3s;
+        white-space: nowrap;
+        align-self: center;
+    }
+
+    .header__btn {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .degree__heading {
+        font-size: 22px;
+    }
+    .degree__button {
+        margin-bottom: 83.2px;
+    }
+
+    .footer__inner {
+        margin-top: 0;
+    }
+
+    .footer__button {
+        padding: 10.12px 23.62px 9.68px 22.38px;
+        max-width: 128px;
+    }
+}
+
+/* ====================================750========================================= */
+
+@media (max-width: 750px) {
+    .header__inner, .degree__inner, .footer__text {
+        padding: 0 16px;
+    }
+
+    .header__logo span {
+        margin-right: 50px;
+    }
+
+    .footer__text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__col:first-child, .footer__col:nth-child(2), .footer__col:nth-child(3), .footer__col:nth-child(4) {
+        display: none;
+    }
+
+    .footer__button {
+        margin: 0px auto;
+    }
+
+    .footer__icons-item {
+        margin-right: 31px;
+    }
+
+    .footer__icons {
+        margin-bottom: 0;
+    }
+
+}
+
+/* ====================================660========================================= */
+
+@media (max-width: 660px) {
+    .header {
+        position: relative;
+    }
+
+    .header__logo-special {
+        display: block;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 21px;
+        margin: 19.5px auto 19.5px 16px;
+        white-space: nowrap;
+    }
+
+    .burger {
+        /* position: fixed; */
+        position: absolute;
+        top: -19px;
+        right: 0;
+        z-index: 300;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+    }
+
+    .burger--follow {
+        top: 15px;
+        right: 15px;
+        box-shadow: 0 1px 8px #a1a1a1;
+        background-color: #FFFFFF;
+    }
+
+    .burger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        margin: 4px 0;
+        z-index: 150;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        z-index: 150;
+    }
+
+    .header__burger {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #FFFFFF;
+        transition: all 0.3s;
+        min-width: 320px;
+        transform: translateX(100%);
+        transition: all 0.7s;
+        z-index: 100;
+    }
+
+    .header__burger--open {
+        transform: translateX(0%);
+    }
+
+    .header__inner {
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header__logo span {
+        margin: 90px auto;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .header__nav-item {
+        padding: 20px 0px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .header__nav-item:last-child {
+        margin-right: 0;
+    }
+}
+
+/* ====================================600========================================= */
+@media (max-width: 600px) {
+    .degree_heading {
+        font-size: 16px;
+        margin-bottom: 56px;
+    }
+    .degree__button {
+        margin-bottom: 76px;
+    }
+}
+
+/* ====================================415========================================= */
+@media (max-width: 415px) {
+    .degree__heading {
+        font-size: 16px;
+    }
+
+    .degree__title {
+        font-size: 15px;
+    }
+}
